@@ -29,7 +29,7 @@ def run(*arg):
         'Accept-Language' : 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
         'Accept-Encoding' : 'gzip, deflate, br',
         'Cookie': cookie,
-        'referer': 'https://www.javbus.com/forum/home.php?mod=spacecp'
+        'referer': 'referer: https://www.javbus.com'
     }
     try:
         r = s.get(url, headers=headers, timeout=120)
